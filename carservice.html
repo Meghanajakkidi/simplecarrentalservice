@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAXI CAB</title>
+  <link rel="stylesheet" href="carservice.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+ 
+  <header class="header" id="header">
+    <div><i class="fa-solid fa-phone" style="color: white;"></i>call-us:123456</div>
+    <div><i class="fa-solid fa-envelope" style="color: white;"></i>email-us:car@gmail.com</div>
+    <div><select style="border: none;background: none;color: yellow;">
+        <option>language</option>
+        <option>english</option>
+        <option>hindi</option>
+      </select></div>
+    <div><i class="fa-solid fa-magnifying-glass" style="color:red;"></i></div>
+    <div><i class="fa-solid fa-bars" style="color: white;"></i></div>
+  </header>
+
+  <div class="navbar" id="navbar">
+    <nav>
+      <ul type="none">
+        <li> <a class="nav">TAXI<img
+              src="https://tse2.mm.bing.net/th?id=OIP.JvXQaPWIaAAr9lzvbjvMlgHaEg&pid=Api&P=0&h=180" width="20px"
+              height="20px">CAB</a></li>
+        <li><a class="text">HOME</a></li>
+        <li><a class="text" href="#carcontainer">CAR RENTALS</a></li>
+        <li><a class="text">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+ <section>
+    <div id="content"></div>
+
+    <div class="flexcontainer">
+      <div id="flexcontainer">
+        <h3>ALL Discount just for you</h3>
+        <h2 style="color: red;">NEED A RIDE ? <br> CHOOSE YOUR <br>COMFARTABLE TAXI</h2>
+        <h3>BEST WORLDWIDE CAR HIRE DEALS!!!!!</h3>
+        <select style="width: 300px;height: 60px;background: none;">
+          <option>SELECT LOCATION</option>
+          <option>HYDERABAD</option>
+          <option>CHENNAI</option>
+          <option>MUMBAI</option>
+          <option>BANGLORE</option>
+        </select>
+      </div>
+      
+    </div>
+  </section>
+  <section id="demo1">
+    <h1>HOW TO RENT A CAR IN<br> PLACES WITH TAXI CAB ?</h1> 
+ <div class="cardcontainer" id="cardcontainer">
+   <div class="card">
+    <img  class="demo" src="https://www.zoomcar.com/img/download.png" width="100px" height="100px">
+   <p>Log onto TAXICAB.com or use the app</p> 
+  </div>
+<div class="card">
+    <img  class="demo" src="https://www.zoomcar.com/img/time-location-select.png" width="100px" height="100px">
+    <p>Select city, date and time</p>
+  </div>
+   <div class="card">
+    <img  class="demo" src="https://www.zoomcar.com/img/deposit.png" width="100px" height="100px">
+    <p>Pick a car of your choice at 0 security deposit</p>
+  </div>
+  <div class="card">
+    <img  class="demo" src="https://www.zoomcar.com/img/zoomaway.png" width="100px" height="100px">
+    <p>TAXICAB with the freedom of unlimited KMs
+    </p>
+  </div>
+ </div>
+  </section>
+  
+ 
+  <section >
+    <div id="carcontainer">
+    <h1 style="text-align: center;color: peru;">TOP DEALS !!!!</h1>
+    <div class="cars">
+     <div class="blur"> <img src="https://tse2.mm.bing.net/th?id=OIP.NGSyWobzH6nQfvEILldWxAHaFL&pid=Api&P=0&h=180"></div>
+      <h4>SHIFT</h4>
+      <h5>RATING:****</h5>
+      <h5>price:perhour/20$</h5>
+      <button class="btn" onclick="booknow()">book now</button>
+    </div>
+    <div class="cars">
+     <div class="blur"> <img src="https://tse2.mm.bing.net/th?id=OIP.h0Mr6RDgrEFRBcpoiHLYOwHaE8&pid=Api&P=0&h=180"></div>
+      <h4>Honda Amaze 2019</h4>
+      <h5>RATING:****</h5>
+      <h5>price:perhour/18$</h5>
+      <button class="btn" onclick="booknow()">book now</button>
+    </div>
+    <div class="cars">
+      <div class="blur">  <img src="https://zoomcar-assets.zoomcar.com/135469/HostCarImage/host_car_image_13546918f056e0-1b06-4e69-b1b2-a261df3715be.jpg20230220-64-2zhz09" width="300px" height="200px"></div>
+      <h4>Maruti Suzuki Celerio</h4>
+      <h5>RATING:****</h5>
+      <h5>price:perhour/17$</h5>
+      <button class="btn" onclick="booknow()">book now</button>
+    </div>
+    <div class="cars">
+      <div class="blur"> <img src="https://i.ytimg.com/vi/bTowvAFZXas/maxresdefault.jpg" width="300px" height="200px"></div>
+      <h4>tata nexon</h4>
+      <h5>RATING:****</h5>
+      <h5>price:perhour/20$</h5>
+      <button class="btn" onclick="booknow()">book now</button>
+    </div>
+  </div>
+  <div class="Services" id="Services">
+    <h1>Why choose TAXICAB<br> Car Rental Services ?</h1>
+    <div>
+      <img src="https://doav52ie4cv60.cloudfront.net/images/repair.svg">
+      <h4>Accessible</h4>
+      <h6>There’s always a Zoomcar near you</h6>
+    </div>
+    <div>
+      <img src="https://doav52ie4cv60.cloudfront.net/images/earning.svg">
+      <h4>Secure</h4>
+      <h6>Pay 0 security deposit, get unlimited KMs</h6>
+    </div>
+    <div>
+      <img src="https://doav52ie4cv60.cloudfront.net/images/flexibility.svg">
+      <h4>Convenient</h4>
+      <h6>From Hatchbacks to SUVs, choose from 25,000+ cars</h6>
+    </div>
+  </div>
+</section>
+
+<div id="contents"></div>
+  <div class="form" id="reservationform">
+    <div>
+      <form>
+        <h3 style="text-align: center;">CAR RENTAL RESERVATION FORM</h3>
+        <hr>
+        <input placeholder="pickupdate&time">
+        <input placeholder="dropdate&time"><br><br>
+        <label>NAME:</label><br><br>
+        <input type="text" placeholder="firstname" value="">
+        <input type="text" placeholder="lastname" value=""><br><br>
+        <label>AGE:</label><br><br>
+        <input type="number" placeholder="eg:20"><br><br>
+        <label>EMAIL:</label><br><br>
+        <input type="email" placeholder="eg:example@gmail.com"><br><br>
+        <label>ADDRESS:</label><br><br>
+        <input type="text"><br><br>
+        <button>SUMBIT</button>
+      </form>
+    </div>
+  </div>
+  
+
+  <script src="carservice.js"></script>
+</body>
+
+</html>

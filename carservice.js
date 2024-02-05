@@ -1,0 +1,29 @@
+const reservation = document.getElementById("reservationform")
+const carcontainer = document.getElementById("carcontainer")
+const header = document.getElementById("header")
+const navbar = document.getElementById("navbar")
+const flexcontainer = document.getElementById("flexcontainer")
+const img = document.getElementById("content")
+const img1 = document.getElementById("contents")
+const cardcontainer = document.getElementById("demo1")
+const services = document.getElementById("Services")
+reservation.style.display="none"
+carcontainer.style.display="flex"
+header.style.display="flex"
+navbar.style.display="block"
+flexcontainer.style.display="block"
+img.style.display="block"
+img1.style.display="none"
+cardcontainer.style.display="flex"
+services.style.display="flex"
+function booknow(){
+   reservation.style.display="flex"
+   carcontainer.style.display="none"
+   header.style.display="none"
+navbar.style.display="none"
+flexcontainer.style.display="none"
+img.style.display="none"
+cardcontainer.style.display="none"
+services.style.display="none"
+img1.style.display="block"
+}

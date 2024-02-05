@@ -1,0 +1,131 @@
+@media screen and (max-width:400px) {
+    body{
+            display: block;
+    }
+ }
+ 
+ .navbar ul>li{
+       display: inline-block;
+      
+       padding-right: 15%;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: yellow;
+    overflow: hidden;
+    
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    color:black;
+    overflow: hidden;
+    
+    
+    
+}
+.text:hover{
+    background-color:crimson;
+}
+.nav{
+    font-size: 40px;
+    color: red;
+}
+#content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.rfD0EyHi7N8wW9G4nOVhBQHaEo&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    
+}
+#contents{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.rfD0EyHi7N8wW9G4nOVhBQHaEo&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+    
+}
+.flexcontainer{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   font-weight: 500;
+    text-align: center;
+   position: absolute;
+   top: 30%;
+    left: 30%;
+}
+#carcontainer{
+    display: flex;
+   justify-content: space-evenly;
+   height: 50vh;
+   width: 100%;
+
+}
+.cars{
+    width: 300px;
+    height: 400px;
+    transition: 2s;
+    border-radius: 10px;
+
+}
+.cars:hover{
+    
+    transform: scale(1,1.5);
+   
+    
+}
+.blur:hover{
+    filter: blur(3px);
+}
+#reservationform{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   top: 10%;
+    left: 40%;
+   
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+}
+.Services{
+    display: flex;
+    justify-content: space-around;
+    transition: 2s;  
+    width: 100%;
+    margin-top: 10%;
+}
+.Services:hover{
+   transform: translatex(20px);
+}
+
+.cardcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    transition: 2s;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: white;
+}
+.cardcontainer:hover{
+    width: 400px;
+}
